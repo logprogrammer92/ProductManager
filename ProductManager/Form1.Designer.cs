@@ -28,44 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lbl_productName = new Label();
-            textBox1 = new TextBox();
-            btn_addProduct = new Button();
+            lblProductName = new Label();
+            txtProductName = new TextBox();
+            btnAddProduct = new Button();
             SuspendLayout();
             // 
-            // lbl_productName
+            // lblProductName
             // 
-            lbl_productName.AutoSize = true;
-            lbl_productName.Location = new Point(38, 103);
-            lbl_productName.Name = "lbl_productName";
-            lbl_productName.Size = new Size(84, 15);
-            lbl_productName.TabIndex = 0;
-            lbl_productName.Text = "Product Name";
+            lblProductName.AutoSize = true;
+            lblProductName.Location = new Point(38, 103);
+            lblProductName.Name = "lblProductName";
+            lblProductName.Size = new Size(84, 15);
+            lblProductName.TabIndex = 0;
+            lblProductName.Text = "Product Name";
             // 
-            // textBox1
+            // txtProductName
             // 
-            textBox1.Location = new Point(138, 95);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(86, 23);
-            textBox1.TabIndex = 1;
+            txtProductName.Location = new Point(138, 95);
+            txtProductName.Name = "txtProductName";
+            txtProductName.Size = new Size(86, 23);
+            txtProductName.TabIndex = 1;
             // 
-            // btn_addProduct
+            // btnAddProduct
             // 
-            btn_addProduct.Location = new Point(87, 184);
-            btn_addProduct.Name = "btn_addProduct";
-            btn_addProduct.Size = new Size(139, 83);
-            btn_addProduct.TabIndex = 2;
-            btn_addProduct.Text = "Add Product";
-            btn_addProduct.UseVisualStyleBackColor = true;
+            btnAddProduct.Location = new Point(87, 184);
+            btnAddProduct.Name = "btnAddProduct";
+            btnAddProduct.Size = new Size(139, 83);
+            btnAddProduct.TabIndex = 2;
+            btnAddProduct.Text = "Add Product";
+            btnAddProduct.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(361, 372);
-            Controls.Add(btn_addProduct);
-            Controls.Add(textBox1);
-            Controls.Add(lbl_productName);
+            Controls.Add(btnAddProduct);
+            Controls.Add(txtProductName);
+            Controls.Add(lblProductName);
             Name = "Form1";
             Text = "Product Manager";
             Load += Form1_Load;
@@ -75,8 +75,8 @@
 
         #endregion
 
-        private Label lbl_productName;
-        private TextBox textBox1;
-        private Button btn_addProduct;
+        private Label lblProductName;
+        private TextBox txtProductName;
+        private Button btnAddProduct;
     }
 }
