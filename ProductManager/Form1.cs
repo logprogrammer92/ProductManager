@@ -11,5 +11,18 @@ namespace ProductManager
         {
             MessageBox.Show("Hello Source Control!");
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+            ProductManager p = new()
+            {
+                Name = txtProductName.Text,
+            };
+        }
     }
 }
