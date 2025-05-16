@@ -39,11 +39,14 @@ namespace ProductManager
         /// </summary>
         public double SalesPrice { get; set; }
 
+        public string salesPriceReason { get; set; }
+
         /// <summary>
         /// The number of units of this product in stock
         /// </summary>
         public int Quantity { get; set; }
 
+        public double TarifPercentageSurcharge { get; set; }
         #region
         // Fully implemented C# property
         //private int _id;

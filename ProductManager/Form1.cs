@@ -14,7 +14,7 @@ namespace ProductManager
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-
+            Environment.Exit(0);
         }
 
         private void btnAddProduct_Click(object sender, EventArgs e)
@@ -23,6 +23,8 @@ namespace ProductManager
             {
                 Name = txtProductName.Text,
             };
+            
+            MessageBox.Show("Saved to database! (not yet but will be");
         }
     }
 }
